@@ -12,7 +12,6 @@
       <div class="status-bar__column">
         <span>No Service</span>
         <i class="fa-solid fa-wifi"></i>
-        <!-- To Do: Wifi Icon -->
       </div>
       <div class="status-bar__column">
         <span>18:43</span>
@@ -21,14 +20,91 @@
         <span>100%</span>
         <i class="fa-solid fa-battery-full fa-lg"></i>
         <i class="fa-solid fa-bolt"></i>
-        <!-- Battery Icon -->
-        <!-- Lighting Icon -->
       </div>
     </div>
 
-    <header class="screen-header"></header>
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="more.html">
+          <i class="fa-solid fa-angle-left fa-2xl"></i>
+        </a>
+      </div>
+      <div class="alt-header__column">
+        <span class="alt-header__title">Settings</span>
+      </div>
+      <div class="alt-header__column">
+        <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+      </div>
+    </header>
 
-    <main class="main-screen more-screen"></main>
+    <main class="main-screen more-screen">
+      <ul class="settings-list">
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <span><i class="fa-solid fa-bullhorn"></i>Notices</span>
+          </div>
+          <div class="settings__setting-column"></div>
+        </li>
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <span><i class="fa-solid fa-flask"></i>Kokoa Lap</span>
+          </div>
+          <div class="settings__setting-column"></div>
+        </li>
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <span><i class="fa-solid fa-circle-info"></i>Version</span>
+          </div>
+          <div class="settings__setting-column">Latest Version</div>
+        </li>
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <span><i class="fa-solid fa-lock"></i>Privacy</span>
+          </div>
+          <div class="settings__setting-column"></div>
+        </li>
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <span><i class="fa-solid fa-bell"></i>Notifications</span>
+          </div>
+          <div class="settings__setting-column"></div>
+        </li>
+        <li class="settings__setting">
+          <a class="nav__link" href="friends.html">
+            <div class="settings__setting-column">
+              <span><i class="far fa-user fa-xl"></i>Friends</span>
+            </div>
+            <div class="settings__setting-column"></div
+          ></a>
+        </li>
+        <li class="settings__setting">
+          <a class="nav__link" href="chats.html"
+            ><div class="settings__setting-column">
+              <span><i class="far fa-comment fa-xl"></i>Chats</span>
+            </div>
+            <div class="settings__setting-column"></div
+          ></a>
+        </li>
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <span><i class="fa-solid fa-display"></i>Display</span>
+          </div>
+          <div class="settings__setting-column"></div>
+        </li>
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <span><i class="fa-solid fa-brush"></i>Themes</span>
+          </div>
+          <div class="settings__setting-column">Default theme</div>
+        </li>
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <span><i class="fa-solid fa-phone"></i>Call</span>
+          </div>
+          <div class="settings__setting-column"></div>
+        </li>
+      </ul>
+    </main>
 
     <nav class="nav">
       <ul class="nav__list">
@@ -56,6 +132,10 @@
         </li>
       </ul>
     </nav>
+
+    <div id="no-mobile">
+      <span>Your screen is too big ㅠㅠ</span>
+    </div>
 
     <script
       src="https://kit.fontawesome.com/35dfed9802.js"
